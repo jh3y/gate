@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>gate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1.0">
+  <meta name="description" content="angular login example">
+  <link rel="stylesheet" href="css/vendor.min.css">
+  <link rel="stylesheet" href="css/gate.min.css">
+</head>
+<body ng-app="gate">
+  <div ng-cloak ng-controller="NavCtrl as nav" class="gate-nav">
+    <h1 class="gate-nav__title tx--center bg--indigo tx--yellow">gate</h1>
+    <button ng-show="isLoggedIn" ng-click="nav.logOut()">Log out</button>
+  </div>
+  <div ng-view ng-class="{'is--loading': loading}" class="page-content tx--center"></div>
+  <script src="js/vendor.min.js"></script>
+  <script src="js/gate.min.js"></script>
+</body>

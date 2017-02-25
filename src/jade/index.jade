@@ -1,6 +1,0 @@
-extends layout-blocks/layout
-block content
-  .gate-nav(ng-cloak, ng-controller="NavCtrl as nav")
-    h1.gate-nav__title.tx--center.bg--indigo.tx--yellow gate
-    button(ng-show="isLoggedIn", ng-click="nav.logOut()") Log out
-  .page-content.tx--center(ng-view, ng-class="{'is--loading': loading}")
