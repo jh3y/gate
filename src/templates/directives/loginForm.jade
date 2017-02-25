@@ -1,0 +1,9 @@
+form.gate-login__form
+  |Email:
+  input.gate-login__form-email(type="text")
+  br
+  |Password:
+  input.gate-login__form-password(type="password")
+  br
+  input.gate-login__form-submit(type="submit", value="Log in")
+  .gate-login__form-error.tx--red(ng-show="validationError") Eeek! Invalid credentials I'm afraid

@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "firstName"  : "Joe",
+      "lastName"   : "Bloggs",
+      "email"      : "joe@bloggs.com",
+      "password"   : "password",
+      "points"     : 100000,
+      "loginExpire": "2015-11-12T09:16:57+00:00"
+    },
+    {
+      "firstName"  : "Jill",
+      "lastName"   : "Bloggs",
+      "email"      : "jill@bloggs.com",
+      "password"   : "password",
+      "points"     : 3,
+      "loginExpire": "2015-11-12T09:16:57+00:00"
+    }
+  ]
+}

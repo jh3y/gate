@@ -1,0 +1,22 @@
+{
+  "name": "gate",
+  "version": "0.0.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/vendor",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.3",
+    "angular-route": "~1.4.3",
+    "angular-resource": "~1.4.3",
+    "normalize.css": "~3.0.3",
+    "angular-mocks": "~1.4.7",
+    "sinon": "http://sinonjs.org/releases/sinon-1.17.2.js"
+  }
+}
